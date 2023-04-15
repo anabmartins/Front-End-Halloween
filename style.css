@@ -127,7 +127,9 @@ body{
     height: 35%;
     width: 100%;
     /* background-color: grey; */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #baixo{
@@ -154,27 +156,52 @@ body{
 
 }
 .labels-top{
+
     font-size: 27px;
     color: white;
     font-family: 'Familiar';
 }
 .labels-top:hover{
+
     color: black;
     cursor: pointer;
     transition: 0.3s;
+
 }
 #main-tittle{
+
     font-size: 120px;
     color: white;
     font-family: 'Bungee';
 }
 #second-tittle{
-    font-size: 70px;
+
+    font-size: 100px;
     color: black;
     font-family: 'Nickainley';
 }
 #slogan{
-    font-size: 15px;
+
+    font-size: 20px;
     color: white;
+    font-family: 'Familiar';
+}
+input{
+    height: 25%;
+    color: black;
+    font-family: 'Familiar';
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 0;
+    text-align: center;
+}
+button{
+    height: 25%;
+    width: 15%;
+    border-radius: 4px;
+    background-color: transparent;
+    border: solid 3px white;
+    color: white;
+    font-size: 15px;
     font-family: 'Familiar';
 }
