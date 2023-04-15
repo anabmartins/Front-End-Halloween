@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Bungee';
+    src: url(./fonts/Bungee-Regular.otf);
+
+}
+
+@font-face {
+
+    font-family: 'Familiar';
+    src: url(./fonts/Familiar_Pro-Bold.otf);
+
+}
+
+@font-face {
+
+    font-family: 'Nickainley';
+    src: url(./fonts/Nickainley-Normal.otf);
+
+}
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0px;
+
+}
+
+#container{
+
+    height: 100%;
+    background-image: url(./imgs/bg-halloween.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#cima{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+
+}
+
+#cima-esquerda{
+
+    height: 100%;
+    width: 55%;
+    /* background-color: aqua; */
+
+}
+
+#cima-direita{
+
+    height: 100%;
+    width: 45%;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#meio{
+
+    height: 70%;
+    width: 100%;
+    display: flex;
+
+}
+
+#meio-esquerda{
+
+    height: 100%;
+    width: 35%;
+    /* background-color: chartreuse; */
+
+}
+
+#meio-direita{
+
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#meio-direita-um{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: darkmagenta; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#meio-direita-dois{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: darkmagenta; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#meio-direita-tres{
+
+    height: 15%;
+    width: 100%;
+    /* background-color: darkslategray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#meio-direita-quatro{
+
+    height: 35%;
+    width: 100%;
+    /* background-color: grey; */
+
+}
+
+#baixo{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+
+}
+
+#baixo-esquerda{
+
+    height: 100%;
+    width: 75%;
+    /* background-color: hotpink; */
+
+}
+
+#baixo-direita{
+
+    height: 100%;
+    width: 25%;
+    /* background-color: darkgreen; */
+
+}
+.labels-top{
+    font-size: 27px;
+    color: white;
+    font-family: 'Familiar';
+}
+.labels-top:hover{
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#main-tittle{
+    font-size: 120px;
+    color: white;
+    font-family: 'Bungee';
+}
+#second-tittle{
+    font-size: 70px;
+    color: black;
+    font-family: 'Nickainley';
+}
+#slogan{
+    font-size: 15px;
+    color: white;
+    font-family: 'Familiar';
+}
