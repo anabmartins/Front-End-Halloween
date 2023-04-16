@@ -153,14 +153,19 @@ body{
     height: 100%;
     width: 25%;
     /* background-color: darkgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 .labels-top{
 
-    font-size: 27px;
+    font-size: 20px;
     color: white;
     font-family: 'Familiar';
+
 }
+
 .labels-top:hover{
 
     color: black;
@@ -173,18 +178,21 @@ body{
     font-size: 120px;
     color: white;
     font-family: 'Bungee';
+
 }
 #second-tittle{
 
     font-size: 100px;
     color: black;
     font-family: 'Nickainley';
+
 }
 #slogan{
 
     font-size: 20px;
     color: white;
     font-family: 'Familiar';
+
 }
 input{
     height: 25%;
@@ -205,3 +213,12 @@ button{
     font-size: 15px;
     font-family: 'Familiar';
 }
+button:hover {
+    background-color: white;
+    color: rgb(255, 77, 0);
+    transition: 0.6s;
+  }
+
+  .social{
+    width: 70px;
+  }
